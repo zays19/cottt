@@ -1,0 +1,15 @@
+{
+  "name": "clashofcoins-login",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "node login-siwe.js",
+    "menu": "node wallet-menu.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.15.0",
+    "undici": "^6.21.2"
+  }
+}
